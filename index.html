@@ -3,125 +3,322 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Investigación de Tesis - Educación Ambiental y PRAE</title>
-    <!-- Asegúrate de tener una carpeta llamada 'css' y dentro este archivo 'tesis.css' -->
-    <link href="css/tesis.css" rel="stylesheet" type="text/css" />
+    <title>Investigación - Presión Social y Adolescencia</title>
+    <link href="./css/tesis.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <main class="main-content">
-        <section id="portada" class="content-card active-card">
-            <div class="card-header">
-                <span class="badge">Trabajo de grado</span>
-                <h1>RELACIÓN ENTRE LA APROPIACIÓN DE CONOCIMIENTOS DEL PRAE Y LA CONCIENCIA AMBIENTAL EN ESTUDIANTES</h1>
+
+    <!-- BARRA DE NAVEGACIÓN SUPERIOR -->
+    <nav class="top-nav">
+        <div class="nav-brand">
+            <span class="brand-icon">🧠</span> PSICOLOGÍA EDUCATIVA
+        </div>
+        <ul class="nav-menu">
+            <li><a href="#problema">Problema e Hipótesis</a></li>
+            <li><a href="#justificacion">Justificación</a></li>
+            <li><a href="#objetivos">Objetivos</a></li>
+            <li><a href="#marco">Marco Referencial</a></li>
+            <li><a href="#resultados">Resultados</a></li>
+            <li><a href="#conclusiones">Conclusiones</a></li>
+        </ul>
+    </nav>
+
+    <!-- CABECERA HERO -->
+    <header class="hero-header">
+        <div class="hero-badge">Institución Educativa La Floresta • Año 2026</div>
+        <h1>Presión Social, Identidad y Toma de Decisiones en la Adolescencia</h1>
+        <p>Un análisis detallado sobre los factores que influyen en los jóvenes de 15 a 17 años.</p>
+    </header>
+
+    <!-- CONTENEDOR PRINCIPAL -->
+    <main class="container">
+
+        <!-- 1. PROBLEMA E HIPÓTESIS -->
+        <section id="problema" class="research-card">
+            <div class="card-tag">01. Planteamiento</div>
+            <h2>Pregunta Problema e Hipótesis</h2>
+            <div class="card-body-text">
+                <h3>1.1 Pregunta Problema</h3>
+                <p>¿Qué relación existe entre la presión social, la construcción de la identidad y la toma de decisiones relacionadas con los intereses y valores propios de los adolescentes de 15 a 17 años de la Institución Educativa La Floresta durante el año académico 2026?</p>
+                <p><strong>Problemática:</strong> Como la presión social puede tener una influencia en el desarrollo de identidad y toma de decisiones relacionados con los intereses y valores de cada adolescente, teniendo en cuenta que es un proceso de autonomía y experiencias que pueden marcar a un futuro.</p>
+                
+                <h3>1.2 Hipótesis</h3>
+                <p>En la adolescencia es posible que exista una relación entre la presión social y la construcción de la identidad. En esta etapa, los adolescentes desarrollan intereses y valores que pueden relacionarse con la manera en que se reconocen a sí mismos. Por ello, podemos establecer que la presión social en los adolescentes de la institución es baja ante sus intereses y valores.</p>
+                <p>Como explica García Jurado (2022), la conformidad social puede influir en las opiniones, juicios y decisiones de las personas[cite: 16]. Este aporte permite analizar como la presión social podría relacionarse con la manera en que los adolescentes toman decisiones. Aun así, no se establece que dicha influencia produzca un resultado específico[cite: 16].</p>
+                <p>En este mismo sentido, Bordignon (2005/2006), al retomar a Erikson, señala la importancia de la construcción de la identidad durante la adolescencia[cite: 16]. A partir de estos aportes, se plantea que la presión social puede presentar alguna relación en la construcción de la identidad y las decisiones relacionadas con los intereses y valores de los jóvenes[cite: 16].</p>
+                <p>Por lo anterior, se espera identificar mediante la investigación si hay una relación de presión social, en la construcción de identidad y en la toma de decisiones, aunque su porcentaje de estudiantes sea bajo, por lo tanto, los resultados permitirán determinar si la hipótesis planteada se mantendrá o los resultados cambiaran[cite: 17].</p>
             </div>
-            <div class="card-body">
-                <div class="info-gird">
-                    <div class="info-box">
-                        <h3>Población de estudio</h3>
-                        <p>Estudiantes de grado noveno</p>
-                    </div>
-                    <div class="info-box">
-                        <h3>Institución</h3>
-                        <p>Institución Educativa La Floresta</p>
-                    </div>
-                    <div class="info-box">
-                        <h3>Marco Normativo</h3>
-                        <p>Min. de Ambiente y Desarrollo Sostenible</p>
-                    </div>
-                    <div class="info-box">
-                        <h3>Fecha</h3>
-                        <p>Año 2026</p>
-                    </div>
-                </div>
+            <div class="card-footer">
+                <span class="views-count">👁️ 1.4K vistas</span>
+                <button class="like-btn" onclick="toggleLike(this)">
+                    <span class="like-count">24</span> <span class="heart-icon">♡</span>
+                </button>
             </div>
         </section>
 
-        <header>
-            <h1>RELACIÓN ENTRE LA APROPIACIÓN DE CONOCIMIENTOS DE LOS CONTENIDOS AMBIENTALES INCORPORADOS EN EL PRAE INSTITUCIONAL Y LA CONCIENCIA AMBIENTAL</h1>
-            <p><strong>Institución:</strong> Educativa La Floresta</p>
-            <p>📍 Año 2026</p>
-        </header>
-
-        <hr>
-
-        <section id="problema" class="content-card">
-            <h2>1. PREGUNTA PROBLEMA</h2>
-            <p>¿Cuál es la relación entre la apropiación de conocimientos de los contenidos ambientales incorporados en el PRAE institucional, de acuerdo con el marco normativo del Ministerio de Ambiente y desarrollo sostenible de Colombia y la conciencia ambiental de los estudiantes de grado noveno de la Institución Educativa La Floresta durante el año 2026?</p> 
-            <div class="keywords">
-                <strong>PRAE:</strong> <span>Proyecto Ambiental Escolar, el cual constituye el principal instrumento en la institución para desarrollar la educación ambiental y promover actitudes sostenibles.</span>
-            </div> 
+        <!-- 2. JUSTIFICACIÓN -->
+        <section id="justificacion" class="research-card">
+            <div class="card-tag">02. Relevancia</div>
+            <h2>Justificación del Estudio</h2>
+            <div class="card-body-text">
+                <p>La presente investigación se realiza con la intención de comprender si se puede dar una influencia en el proceso de la adolescencia, especialmente que sucede en el desarrollo de identidad o qué factores pueden intervenir en las decisiones que toman los adolescentes de 15 a 17 años en la Institución Educativa La Floresta[cite: 17].</p>
+                <p>Teniendo en cuenta el postulado de Hall (1904), su investigación se realizó para comprender los cambios que ocurren durante la adolescencia y explicar cómo se manifiestan los diferentes factores, como lo son sus valores, intereses y las relaciones sociales, manteniendo la importancia en el desarrollo individual de los jóvenes[cite: 17].</p>
+                <p>Aun así, se busca reconocer cómo se manifiesta la presión social en sus experiencias y cómo se relaciona con la construcción de su identidad y la toma de decisiones. De esta manera, se podrá aportar información sobre los procesos de los adolescentes, sin asumir que la presión social produce los mismos efectos en todos los adolescentes[cite: 17].</p>
+                <p>En este sentido, la investigación se considera pertinente porque permitirá comprender mejor la relación entre las variables (presión social, desarrollo de identidad y toma de decisiones) en los adolescentes de 15 a 17 años de la Institución Educativa La Floresta durante el año académico 2026[cite: 17].</p>
+            </div>
+            <div class="card-footer">
+                <span class="views-count">👁️ 980 vistas</span>
+                <button class="like-btn" onclick="toggleLike(this)">
+                    <span class="like-count">19</span> <span class="heart-icon">♡</span>
+                </button>
+            </div>
         </section>
 
-        <hr>
-
-        <section class="content-card">
-            <h2>2. HIPÓTESIS Y OBJETIVOS</h2> 
-            <h3>Hipótesis</h3>
-            <p>Se plantea que existe una relación positiva entre la apropiación de conocimientos de los contenidos ambientales incorporados en el PRAE y la conciencia ambiental de los estudiantes de grado noveno. Se espera que una mayor apropiación se relacione con una mayor capacidad para reconocer problemáticas, valorar el entorno y desarrollar prácticas de uso responsable de recursos.</p> 
-            
-            <h3>Objetivos del Estudio</h3>
-            <ul>
-                <li><strong>Objetivo General:</strong> Analizar la relación entre la apropiación de conocimientos de los contenidos ambientales incorporados en el PRAE institucional, acorde al marco normativo del Ministerio de Ambiente, con la conciencia ambiental de los estudiantes de grado noveno durante 2026.</li>
-                <li><strong>Objetivo Específico 1:</strong> Identificar los contenidos ambientales incorporados en el PRAE de acuerdo con los referentes normativos.</li>
-                <li><strong>Objetivo Específico 2:</strong> Describir la apropiación de conocimientos por parte de los estudiantes a partir de la encuesta “Educación Ambiental (PRAE)”.</li>
-                <li><strong>Objetivo Específico 3:</strong> Describir la conciencia ambiental considerando sus dimensiones cognitiva, afectiva, conativa y activa.</li>
-                <li><strong>Objetivo Específico 4:</strong> Establecer la relación entre la apropiación de conocimientos del PRAE y la conciencia ambiental de los estudiantes.</li>
-            </ul>
-        </section>
-
-        <hr>
-
-        <section class="content-card">
-            <h2>3. JUSTIFICACIÓN</h2> 
-            <p>El cambio climático es una realidad que amenaza toda existencia y requiere de acción colectiva inmediata, especialmente en los jóvenes. La educación ambiental permite la promesa de un futuro sostenible, recalcando la importancia de los contenidos ambientales en los colegios. En La Floresta, el PRAE promueve actitudes responsables. Esta investigación identificará si la integración de estos estándares contribuye al fortalecimiento de la conciencia ambiental, cumpliendo con las exigencias del decreto 1743 de 1994.</p> 
-        </section>
-
-        <hr>
-        
-        <section class="content-card">
-            <h2>4. DIMENSIONES DE LA CONCIENCIA AMBIENTAL (ANÁLISIS)</h2> 
-            <p>Los resultados de la encuesta se relacionan con las 4 dimensiones propuestas por Chulia (1995) para identificar la percepción y disposición de los estudiantes:</p> 
-            <ul>
-                <li><strong>Dimensión Cognitiva:</strong> Integra los conocimientos sobre la crisis climática, pérdida de biodiversidad y deterioro ambiental. Los estudiantes reconocen principalmente el manejo de residuos (23 selecciones), siendo el tema más asimilado, seguido de la biodiversidad y el cambio climático.</li>
-                <li><strong>Dimensión Afectiva:</strong> Integra los sentimientos de preocupación y la valoración de los recursos naturales. Los estudiantes reconocen la importancia de la participación juvenil en la preservación de la vida.</li>
-                <li><strong>Dimensión Conativa:</strong> Hace referencia a la disposición para actuar de manera responsable. La apropiación de conocimientos ayuda a identificar qué acciones realizar, como la intención de separar residuos y ahorrar agua.</li>
-                <li><strong>Dimensión Activa:</strong> Analiza las conductas ambientales reales en la vida cotidiana e institucional. Los estudiantes aplican lo aprendido en la separación de residuos, reciclaje y cuidado de zonas verdes, evidenciando una conexión directa con el PRAE.</li>
-            </ul>
-        </section>
-
-        <hr>
-
-        <section class="content-card">
-            <h2>5. MARCO REFERENCIAL DESTACADO</h2> 
-            <div class="destacado"> 
-                <h3>Bases Conceptuales y Normativas:</h3> 
-                <p>La investigación se sustenta en fuentes globales y nacionales que abordan el cambio climático, la gobernanza climática juvenil y los Objetivos de Desarrollo Sostenible (ODS).</p>
+        <!-- 3. OBJETIVOS -->
+        <section id="objetivos" class="research-card">
+            <div class="card-tag">03. Metas</div>
+            <h2>Objetivos de la Investigación</h2>
+            <div class="card-body-text">
+                <h3>2.1 Objetivo General</h3>
+                <p><strong>2.1.1</strong> Analizar cómo se relaciona la presión social con la construcción de la identidad y la toma de decisiones basadas en los intereses y valores propios de los adolescentes de 15 a 17 años de la Institución Educativa La Floresta durante el año académico 2026[cite: 17, 18].</p>
+                
+                <h3>2.2 Objetivos Específicos</h3>
                 <ul>
-                    <li><strong>Impacto y Causas:</strong> Documentos de la ONU, NASA y UNICEF confirman el aumento de gases de efecto invernadero y la urgencia de fortalecer la educación ambiental para mitigar el calentamiento global.</li>
-                    <li><strong>Rol Juvenil:</strong> La CEPAL y el PNUD destacan a los jóvenes como agentes de cambio transformadores esenciales para construir sistemas sostenibles y alcanzar la Agenda 2030.</li>
-                    <li><strong>Teoría del Aprendizaje:</strong> Desde la perspectiva vygotskiana, se entiende que la apropiación de conocimientos ambientales se construye mediante la interacción social y las experiencias del entorno escolar.</li>
+                    <li><strong>2.2.1</strong> Identificar los factores principales que pueden generar presión social en los adolescentes de 15 a 17 años en la Institución Educativa La Floresta durante el año 2026[cite: 18].</li>
+                    <li><strong>2.2.2</strong> Examinar el desarrollo de la identidad de los adolescentes de 15 a 17 años de la Institución Educativa La Floresta durante el año académico 2026, en relación con sus intereses, valores personales y toma de decisiones[cite: 18].</li>
+                    <li><strong>2.2.3</strong> Construir una herramienta visual que sea de apoyo en situaciones de presión social para los adolescentes de 15 a 17 años de la Institución Educativa La Floresta durante el año 2026[cite: 18].</li>
+                    <li><strong>2.2.4</strong> Analizar las características de la toma de decisiones de los adolescentes de 15 a 17 años de la Institución Educativa La Floresta durante el año 2026[cite: 18].</li>
                 </ul>
             </div>
+            <div class="card-footer">
+                <span class="views-count">👁️ 1.1K vistas</span>
+                <button class="like-btn" onclick="toggleLike(this)">
+                    <span class="like-count">31</span> <span class="heart-icon">♡</span>
+                </button>
+            </div>
         </section>
 
-        <hr>
+        <!-- 4. MARCO REFERENCIAL -->
+        <section id="marco" class="research-card full-width-card">
+            <div class="card-tag">04. Fundamentación Teórica</div>
+            <h2>Marco Referencial (Fichas de Análisis)</h2>
+            <div class="card-body-text grid-references">
+                
+                <div class="ref-item">
+                    <h4>4.1 Vargas Veléz, V.K. Y Canon De la Cruz, Y. (2024)</h4>
+                    <p><em>"Influencia de la presión social en la toma de decisiones del alumnado"</em>[cite: 18]. <strong>Ficha #1:</strong> La revista afirma cómo desde el entorno se genera una presión social que puede influir en la capacidad de los estudiantes para tomar decisiones basándose en que somos seres bio-psico-sociales[cite: 18, 19].</p>
+                </div>
 
-        <section class="content-card">
-            <h2>6. CONCLUSIONES</h2> 
-            <p>Los hallazgos principales de la investigación determinan que:</p> 
-            <ul>
-                <li>Se reconoce al PRAE institucional como un espacio formativo clave que contribuye a la apropiación de conocimientos y al fortalecimiento de la conciencia ambiental, apoyado en el Ministerio de Ambiente.</li>
-                <li>Existe una relación positiva entre la apropiación de conocimientos de los contenidos del PRAE y la conciencia ambiental de los estudiantes de grado noveno, evidenciada en las dimensiones cognitiva, afectiva, conativa y activa.</li>
-                <li>La principal fortaleza identificada en el PRAE de La Floresta es el reconocimiento y aplicación práctica de la separación y manejo adecuado de residuos.</li>
-                <li>Aunque los estudiantes reconocen el valor de la naturaleza y tienen disposición para su cuidado, el solo reconocimiento de los contenidos no garantiza acciones constantes, por lo que es vital seguir fortaleciendo los procesos de aprendizaje y analizar la influencia del entorno familiar.</li>
-            </ul>
+                <div class="ref-item">
+                    <h4>4.1.2 Ximena Palacios (2019)</h4>
+                    <p><em>"Adolescencia: ¿una etapa problemática del desarrollo humano?"</em>[cite: 19]. <strong>Ficha #1:</strong> Permite analizar la adolescencia como etapa conflictiva, afirmando que las problemáticas no vienen de los jóvenes, sino de la sociedad, familia e instituciones[cite: 19].</p>
+                </div>
+
+                <div class="ref-item">
+                    <h4>4.1.3 García Jurado, R. (2022)</h4>
+                    <p><em>"La conformidad. El poder de las influencias sociales..."</em>[cite: 19]. <strong>Ficha #2:</strong> Identifica cómo el entorno social influye en la toma de decisiones a partir de adaptaciones a las opiniones y comportamientos ajenos[cite: 19].</p>
+                </div>
+
+                <div class="ref-item">
+                    <h4>4.1.4 Hernández, O. (2021)</h4>
+                    <p><em>"Factores que influyen en la toma de decisiones en estudiantes de secundaria"</em>[cite: 19]. <strong>Ficha #2:</strong> Analiza cómo los compañeros, la familia y condiciones del contexto intervienen en las elecciones de los adolescentes[cite: 19, 20].</p>
+                </div>
+
+                <div class="ref-item">
+                    <h4>4.1.5 Bordignon, N. A. (2005)</h4>
+                    <p><em>"El desarrollo psicosocial de Eric Erikson"</em>[cite: 20]. <strong>Ficha #4:</strong> Fundamental para comprender que el desarrollo de la identidad ocurre en la etapa 5, expuestos a influencias del entorno social[cite: 20].</p>
+                </div>
+
+                <div class="ref-item">
+                    <h4>4.1.6 Gaete, V. (2015)</h4>
+                    <p><em>"Desarrollo psicosocial del adolescente"</em>[cite: 20]. <strong>Ficha #4:</strong> Explica que la adolescencia es una etapa de grandes cambios donde los jóvenes desarrollan mayor autonomía y construyen su identidad[cite: 20].</p>
+                </div>
+
+                <div class="ref-item">
+                    <h4>4.1.7 Steinberg, L. (2008)</h4>
+                    <p><em>"A social neuroscience perspective on adolescent risk-taking"</em>[cite: 20, 21]. <strong>Ficha #6:</strong> Analiza cómo la toma de decisiones puede cambiar bajo influencia social, acercándose o alejándose de intereses propios[cite: 21].</p>
+                </div>
+
+                <div class="ref-item">
+                    <h4>4.1.8 Rodrigo Apio, J. J. & Andreu Rodríguez, J. M. (2017)</h4>
+                    <p><em>"Evaluación psicológica de la madurez psicosocial..."</em>[cite: 21]. <strong>Ficha #6:</strong> Sienta bases en la templanza, perspectiva, responsabilidad y autonomía en la capacidad de análisis antes de decidir[cite: 21].</p>
+                </div>
+
+                <div class="ref-item">
+                    <h4>4.1.9 López Sánchez, F. (2015)</h4>
+                    <p><em>"Adolescencia. Necesidades y problemas"</em>[cite: 21]. <strong>Ficha #7:</strong> Permite analizar cómo la presión social se relaciona con la identidad y capacidad de tomar decisiones acordes a valores[cite: 21, 22].</p>
+                </div>
+
+                <div class="ref-item">
+                    <h4>4.1.10 Krauskopof, D. (1999)</h4>
+                    <p><em>"El desarrollo psicológico en la adolescencia"</em>[cite: 22]. <strong>Ficha #8:</strong> Comprende la elección entre actuar por intereses propios o adaptarse a expectativas ajenas[cite: 22].</p>
+                </div>
+
+                <div class="ref-item">
+                    <h4>4.1.11 Hernández, Z. E. & Romero, E. (2010)</h4>
+                    <p><em>"Estrés en personas mayores y estudiantes universitarios"</em>[cite: 22]. <strong>Ficha #8:</strong> Analiza cómo la presión genera conflicto entre expectativas externas y valores del adolescente[cite: 22].</p>
+                </div>
+
+                <div class="ref-item">
+                    <h4>4.1.12 Díaz, A. et al. (2020)</h4>
+                    <p><em>"Manejo del equilibrio psicosocial frente a un mundo bajo presión"</em>[cite: 22, 23]. <strong>Ficha #12:</strong> Comprende la influencia social en cómo los jóvenes afrontan situaciones y mantienen sus criterios[cite: 23].</p>
+                </div>
+
+                <div class="ref-item">
+                    <h4>4.1.13 González de Rivera y Revuelta, J. L. (2001)</h4>
+                    <p><em>"Psicoterapia de la crisis"</em>[cite: 23]. <strong>Ficha #16:</strong> Aborda situaciones donde los adolescentes cuestionan criterios y deciden entre valores propios o expectativas ajenas[cite: 23].</p>
+                </div>
+
+                <div class="ref-item">
+                    <h4>4.1.14 Eddy Ives, L. S. (2014)</h4>
+                    <p><em>"La identidad del adolescente. Cómo se construye"</em>[cite: 23]. <strong>Ficha #12:</strong> Relación directa entre presión social, desarrollo de identidad y toma de decisiones[cite: 23, 24].</p>
+                </div>
+
+                <div class="ref-item">
+                    <h4>4.1.15 Regader, B. (2015)</h4>
+                    <p><em>"La teoría del desarrollo psicosocial de Erik Erikson"</em>[cite: 24]. <strong>Ficha #17:</strong> Base teórica para analizar si las presiones sociales influyen en decisiones sobre el futuro[cite: 24].</p>
+                </div>
+
+                <div class="ref-item">
+                    <h4>4.1.16 Díaz, A. et al. (2020)</h4>
+                    <p><em>"Manejo del equilibrio psicosocial..."</em> (Segunda cita)[cite: 24]. <strong>Ficha #21:</strong> Sustenta la relación entre desarrollo de identidad, toma de decisiones y entorno social[cite: 24].</p>
+                </div>
+
+                <div class="ref-item">
+                    <h4>4.1.17 Orcasita Pineda, L. T. & Uribe Rodríguez, A. F. (2010)</h4>
+                    <p><em>"La importancia del apoyo social en el bienestar..."</em>[cite: 25]. <strong>Ficha #13:</strong> Argumenta que el adolescente se desarrolla en relaciones sociales que influyen en su comportamiento[cite: 25].</p>
+                </div>
+
+                <div class="ref-item">
+                    <h4>4.1.18 Musitu, G. & Cava, M. J. (2003)</h4>
+                    <p><em>"El rol del apoyo social en el ajuste de los adolescentes"</em>[cite: 25]. <strong>Ficha #7:</strong> Relación del entorno social con el desarrollo y autonomía en la toma de decisiones[cite: 25].</p>
+                </div>
+
+                <div class="ref-item">
+                    <h4>4.1.19 Güemes-Hidalgo, M. et al. (2017)</h4>
+                    <p><em>"Desarrollo durante la adolescencia. Aspectos físicos, psicológicos y sociales"</em>[cite: 25]. <strong>Ficha #12:</strong> Relación del contexto social con la autonomía para enfrentar situaciones[cite: 25, 26].</p>
+                </div>
+
+                <div class="ref-item">
+                    <h4>4.1.20 Patrício do Amaral, M. et al. (2015)</h4>
+                    <p><em>"Las habilidades sociales y el comportamiento infractor..."</em>[cite: 26]. <strong>Ficha #11:</strong> Interacción social y procesos de toma de decisiones[cite: 26].</p>
+                </div>
+
+                <div class="ref-item">
+                    <h4>4.1.21 Martínez Sandoval, J. C. (s. f.)</h4>
+                    <p><em>"Toma de decisiones y solución de problemas"</em>[cite: 26]. <strong>Ficha #9:</strong> Planteamientos sobre análisis, búsqueda de alternativas y creatividad en la decisión adolescente[cite: 26].</p>
+                </div>
+
+            </div>
+            <div class="card-footer">
+                <span class="views-count">👁️ 2.5K vistas</span>
+                <button class="like-btn" onclick="toggleLike(this)">
+                    <span class="like-count">56</span> <span class="heart-icon">♡</span>
+                </button>
+            </div>
         </section>
 
-        <hr>
+        <!-- 5. ANÁLISIS DE RESULTADOS -->
+        <section id="resultados" class="research-card">
+            <div class="card-tag">05. Datos Empíricos</div>
+            <h2>Análisis de Resultados de Encuestas</h2>
+            <div class="card-body-text">
+                <h3>¿Sé cuáles son mis valores y los defiendo?</h3>
+                <p>En la gráfica se mantiene la tendencia en el que de 15 a 17 años mantienen el reconocimiento de sus valores y la percepción de mantenerlos ante otras personas. Aun así, se analiza que, en las tres edades (especialmente a los 16 años), puede existir dificultad para identificar o defender sus valores. A los 17 años se observa un estudiante que percibe claramente sus valores frente a los demás[cite: 27].</p>
 
-        <footer>
-            <p>© Proyecto de Investigación - Educación Ambiental y PRAE. Contenido académico.</p>
-        </footer>
+                <h3>¿Me siento segur@ de quién soy y de lo que quiero ser en el futuro?</h3>
+                <p>Se maneja una tendencia donde la mayoría de los estudiantes tienen seguridad de su propia identidad y expectativas a futuro. Sin embargo, persiste un porcentaje alto de estudiantes con incertidumbre sobre quiénes son o qué quieren para su futuro, evaluando el desarrollo evolutivo de la identidad[cite: 28].</p>
+
+                <h3>¿A veces tiendo a confundir mi identidad y mi rol frente a los demás?</h3>
+                <p>En la gráfica se mantiene la tendencia en las tres edades donde los estudiantes no tienen clara la situación de los roles que mantienen en su entorno o cómo su identidad se está desarrollando. Se interpreta que a los 15 y 17 años a veces cuesta distinguir los roles desempeñados ante los demás, aunque tengan clara su identidad en expectativas generales[cite: 28, 29].</p>
+            </div>
+            <div class="card-footer">
+                <span class="views-count">👁️ 1.7K vistas</span>
+                <button class="like-btn" onclick="toggleLike(this)">
+                    <span class="like-count">42</span> <span class="heart-icon">♡</span>
+                </button>
+            </div>
+        </section>
+
+        <!-- 6. CONCLUSIONES -->
+        <section id="conclusiones" class="research-card full-width-card">
+            <div class="card-tag">06. Cierre Analítico</div>
+            <h2>Conclusiones de la Investigación</h2>
+            <div class="card-body-text grid-conclusions">
+                <div class="conclusion-box">
+                    <span class="num">7.1</span>
+                    <p>Se concluye que la presión social se relaciona con la construcción de la identidad y la toma de decisiones de los adolescentes de 15 a 17 años de la Institución Educativa La Floresta; los resultados infieren que las expectativas de los compañeros importan, aunque no determinan por completo su comportamiento[cite: 29].</p>
+                </div>
+                <div class="conclusion-box">
+                    <span class="num">7.2</span>
+                    <p>Los resultados evidencian que algunos estudiantes presentan dudas sobre si sus gustos e intereses corresponden a sus propias preferencias o a opiniones ajenas, deduciendo que reconocer intereses personales fortalece la identidad[cite: 29].</p>
+                </div>
+                <div class="conclusion-box">
+                    <span class="num">7.3</span>
+                    <p>La construcción de identidad implica reconocer características, preferencias y valores propios. Unos expresan seguridad y otros incertidumbre, demostrando que no todos viven este proceso igual[cite: 29].</p>
+                </div>
+                <div class="conclusion-box">
+                    <span class="num">7.4</span>
+                    <p>Los valores personales importan al decidir ante expectativas de compañeros, pero expresar seguridad en los valores no garantiza que siempre sea fácil mantenerlos bajo presión social[cite: 29, 30].</p>
+                </div>
+                <div class="conclusion-box">
+                    <span class="num">7.5</span>
+                    <p>Las respuestas a la situación hipotética de copiar en un examen permitieron evidenciar que algunos considerarían aceptar propuestas de compañeros ante el riesgo de perder el año, demostrando la necesidad de reflexionar en consecuencias[cite: 30].</p>
+                </div>
+                <div class="conclusion-box">
+                    <span class="num">7.6</span>
+                    <p>Los adolescentes no responden igual ante la presión social: unos mantienen opiniones firmes, mientras otros experimentan dudas o consideran expectativas grupales antes de decidir[cite: 30].</p>
+                </div>
+                <div class="conclusion-box">
+                    <span class="num">7.7</span>
+                    <p>Al comparar entrevistas y respuestas estudiantiles, ambas fuentes ofrecen perspectivas diferentes sobre las experiencias adolescentes, siendo necesario considerar tanto a jóvenes como a padres[cite: 30].</p>
+                </div>
+                <div class="conclusion-box">
+                    <span class="num">7.8</span>
+                    <p>Tomar decisiones propias no significa rechazar opiniones externas, sino analizarlas y valorar si coinciden con los intereses y valores personales, escuchando sin aceptar obligatoriamente todo[cite: 30].</p>
+                </div>
+                <div class="conclusion-box">
+                    <span class="num">7.9</span>
+                    <p>Se logró alcanzar el objetivo de construir el Botiquín "Bajo Presión", herramienta visual que reúne orientaciones para reconocer situaciones de presión social y reflexionar sobre alternativas[cite: 30].</p>
+                </div>
+                <div class="conclusion-box">
+                    <span class="num">7.10</span>
+                    <p>Comprender la relación entre presión social, identidad y toma de decisiones es clave para reconocer dificultades juveniles; la herramienta visual promueve la reflexión personal aunque su efectividad deba evaluarse[cite: 31].</p>
+                </div>
+            </div>
+            <div class="card-footer">
+                <span class="views-count">👁️ 3.2K vistas</span>
+                <button class="like-btn" onclick="toggleLike(this)">
+                    <span class="like-count">88</span> <span class="heart-icon">♡</span>
+                </button>
+            </div>
+        </section>
+
     </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 Proyecto de Investigación Académica • Institución Educativa La Floresta</p>
+    </footer>
+
+    <!-- Script de Me Gusta -->
+    <script>
+        function toggleLike(button) {
+            const countSpan = button.querySelector('.like-count');
+            const iconSpan = button.querySelector('.heart-icon');
+            let count = parseInt(countSpan.textContent);
+
+            button.classList.toggle('liked');
+
+            if (button.classList.contains('liked')) {
+                count += 1;
+                iconSpan.textContent = '♥';
+            } else {
+                count -= 1;
+                iconSpan.textContent = '♡';
+            }
+            countSpan.textContent = count;
+        }
+    </script>
 </body>
 </html>
