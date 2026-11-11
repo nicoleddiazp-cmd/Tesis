@@ -1,0 +1,82 @@
+/* ==========================================================================
+   ESTILOS GENERALES PARA EL CURRÍCULUM
+   ========================================================================== */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #333333;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #ffffff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 20px;
+}
+
+header img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #1a365d;
+}
+
+h1 {
+    font-size: 26px;
+    color: #1a365d;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-size: 16px;
+    color: #2b6cb0;
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 5px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    letter-spacing: 0.5px;
+}
+
+h3 {
+    font-size: 15px;
+    color: #2d3748;
+    margin: 10px 0 2px 0;
+}
+
+h4 {
+    font-size: 13px;
+    color: #4a5568;
+    margin: 0 0 8px 0;
+    font-weight: normal;
+    font-style: italic;
+}
+
+p {
+    font-size: 14px;
+    margin: 6px 0;
+}
+
+ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+li {
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #e2e8f0;
+    margin: 20px 0;
+}
